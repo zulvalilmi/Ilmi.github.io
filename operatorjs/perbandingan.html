@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Perbandingan </title>
+</head>
+<body>
+
+    <!-- macam macam operator perbandingan
+        1. != (tidak sama dengan)
+        2. == (sama dengan)
+        3. === (sama dengan nilai dan type)
+        4. !== (tidak sama dengan nlai dan tidak sama dengan type)
+        5 > (lebih besar dari)
+        6. < (lebih kecil dari)
+        7. >= (lebih besar sama dengan dari)
+        8. <= (lebih kecil sama dengan dari)
+        9. ? (ternary operator)
+    
+    -->
+
+    <p id="ini">perbandingan</p>
+    <script>
+
+       let a = 5;
+       if( a <= 5 ){
+        console.log("benar")
+       }else{
+        console.log("salah")
+       }
+
+       let b = 4;
+       let c;
+       if( b !== 4 ){
+            c = " b sama dengan 4"
+            console.log(c)
+       }else{
+            c = " b tidak sama dengan 4"
+            console.log(c)
+       }
+
+       let 
+       d = 8;
+       e = "9";
+       if( d > e ){
+        console.log("benar")
+        document.getElementById("ini").innerHTML = "benar"
+       }else{
+        console.log("salah")
+        document.getElementById("ini").innerHTML = "salah"
+       }
+
+    //    const tall = 130;
+    //    const bevertall = tall >= 150 ? "berenang 2 meter" : "berenang tempat anak anak" 
+
+    //    const age = 19;
+    //    const beverage = age >= 21 ? "kopi" : "susu"
+
+    //     if(age == 26){
+    //     beverage = "boleh minum kopi"
+    //    }else{
+    //     beverage = "boleh minum susu"
+    //    }
+
+    const follow = 17;
+    const beverfollow = follow >= 15 ? "bisa mengikuti audisi" : "tidak bisa mengikuti audisi"
+
+        document.getElementById("ini").innerHTML = beverfollow;
+        console.log("beverfollow")
+
+
+
+
+
+    
+
+    </script>
+
+  
+</body>
+</html>

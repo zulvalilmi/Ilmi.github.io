@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form input</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+    <h1>Form Input Data barang</h1>
+    <form action="#">
+
+        <input type="hidden" name="id_barang" value="12">
+
+        <label for="nama_Barang">Nama Barang</label> <br>
+        <input type="text" placeholder="Masukan Nama Barang" required name="nama_barang" value="" id="nama_barang">
+
+        <br><br>
+
+        <label for="jenis_barang">Jenis Barang</label> <br>
+
+        <input type="radio" name="jenis_barang" value="ATK" id="atk">
+        <label for="">ATK</label>
+        
+        <input type="radio" name="jenis_barang" value="Elektronik" id="Elektronik">
+        <label for="Elektronik">Elektronik</label>
+
+        <br><br>
+
+        <label for="harga_Barang">Harga Barang</label> <br>
+        <input type="number" name="harga_barang" value="" id="harga_barang"> 
+ 
+        <br><br>
+
+        <label for="Tanggal_Barang">Tanggal Barang</label> <br>
+        <input type="date" name="Tanggal_barang" value="" id="Tanggal_barang"> 
+
+ 
+        <br><br>
+
+        <label for="gambar_Barang">Gambar Barang</label> <br>
+        <input type="file" name="gambar_barang" value="" id="gambar_barang"> 
+
+
+        <br><br>
+
+        <label for="email">Email</label> <br>
+        <input type="email" name="email" value="" id="email"> 
+
+
+        <br><br>
+
+        <label for="passwaord">Passwaord</label> <br>
+        <input type="password" name="passwaord" value="" id="passwaord"> 
+
+        <br><br>
+
+        <label for="jenis">Jenis Barang</label> <br>
+        <select name="jenis" id="jenis"> 
+            <option value="">Pilih</option>
+            <option value="atk">ATK</option>
+            <option value="elektronik">Elektronik</option>
+
+
+        <br><br>
+
+        <label for="deskripsi_barang">Deskripsi Barang</label> <br>
+        <textarea name="deskripsi barang" id="" cols="30" rows="10"></textarea>
+
+        <br><br>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Simpan</button>
+
+    </form>
+</body>
+</html>

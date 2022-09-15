@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operator logika</title>
+</head>
+<body>
+    
+<!-- macam macam logika operator
+    1. && (beberapa sesuatu yang berbeda tetapi di cocokkan) email dan password dengan benar
+    2. ||
+    3. ! -->
+
+    <h1>operator logika</h1>
+    <p id="ini">ada apa?</p>
+
+    <script>
+
+        let nama    = "andre";
+        let email   = "andri@gmail.com";
+        let pass    = "5678";
+        let a;
+
+        if(email == "andre@gmail.com" && pass == "5678"){
+            b = "Haaaiiiyyy!!" + nama;
+            console.log(b);
+        }else{
+            b = "Kamu bukan andre!!";
+            console.log(b);
+        }
+
+            document.getElementById("ini").innerHTML = b;
+
+
+    </script>
+</body>
+</html>
